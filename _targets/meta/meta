@@ -1,0 +1,10 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+get_streamflow|function|d35e54659a69ac75
+t00a_all_data|object|2e76eb045b9d4372
+site_no|object|6cd0353de49a42c8
+get_climate_data|function|01f2d6c0a48183c6
+q_st_date|object|1056c49596416195
+msc_clim_data_link|object|a9f6f6d871a2635c
+q_end_date|object|8a6e44e5d7686c13
+streamflow_data|stem|5016ae524e775096|2265b4f7f80fd64e|cf8380cfe63e0165|1825179981||t20117.0843511681s|s18523b|18523|rds|local|vector|||0.59||
+climate_data|stem|24aad820cf0718ba|f620f70914be1b27|2332447df040a7c2|856977467||t20117.0843556428s|s119769b|119769|rds|local|vector|||0.31||
