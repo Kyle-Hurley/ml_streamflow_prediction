@@ -39,5 +39,12 @@ create_predictors <- function(climate_data, sf_dates) {
     predictors[, paste0(col, "_roll_6")] <- rollmean_vals[[col]][[3]]
   }
   
+  # Account for seasonality
+  # Map dates to the unit circle
+  # Allows for model to learn the timing and intensity of seasons
+  dec_year <- decimal_year(predictors$date)
+  predictors$sin_date <- sin(2*pi*dec_year)
+  predictors$cos_date <- cos(2*pi*dec_year)
+  
   return(predictors)
 }
