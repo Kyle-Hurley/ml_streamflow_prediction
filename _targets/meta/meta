@@ -1,10 +1,13 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+streamflow_data|stem|5016ae524e775096|2265b4f7f80fd64e|cf8380cfe63e0165|1825179981||t20117.0843511681s|s18523b|18523|rds|local|vector|||0.59||
+climate_data|stem|24aad820cf0718ba|f620f70914be1b27|2332447df040a7c2|856977467||t20117.0843556428s|s119769b|119769|rds|local|vector|||0.31||
 get_streamflow|function|d35e54659a69ac75
 t00a_all_data|object|2e76eb045b9d4372
 site_no|object|6cd0353de49a42c8
 get_climate_data|function|01f2d6c0a48183c6
 q_st_date|object|1056c49596416195
 msc_clim_data_link|object|a9f6f6d871a2635c
+t00b_processed_data|object|4d7ca1e340638fb0
 q_end_date|object|8a6e44e5d7686c13
-streamflow_data|stem|5016ae524e775096|2265b4f7f80fd64e|cf8380cfe63e0165|1825179981||t20117.0843511681s|s18523b|18523|rds|local|vector|||0.59||
-climate_data|stem|24aad820cf0718ba|f620f70914be1b27|2332447df040a7c2|856977467||t20117.0843556428s|s119769b|119769|rds|local|vector|||0.31||
+create_predictors|function|f579e50d91f9d4a4
+main_data|stem|4059c3f923f3ce22|abe1857ad228f64a|eb2f45d7f23afd12|1528465371||t20120.6484799768s|s112580b|112580|rds|local|vector|||0.37||
