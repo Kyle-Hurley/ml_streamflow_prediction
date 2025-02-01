@@ -2,7 +2,7 @@ create_predictors <- function(climate_data, sf_dates) {
   
   climate_data$DATE <- as.Date(climate_data$DATE)
   columns <- c(
-    "DATE", "PRCP", "SNOW", "SNWD", "TMAX", "TMIN"
+    "DATE", "PRCP", "TMAX", "TMIN"
   )
   predictors <- climate_data[, columns]
   colnames(predictors) <- tolower(columns)
@@ -45,6 +45,9 @@ create_predictors <- function(climate_data, sf_dates) {
   dec_year <- decimal_year(predictors$date)
   predictors$sin_date <- sin(2*pi*dec_year)
   predictors$cos_date <- cos(2*pi*dec_year)
+  
+  # Clean up NA values
+  
   
   return(predictors)
 }

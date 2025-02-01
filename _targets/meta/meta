@@ -9,9 +9,10 @@ get_climate_data|function|01f2d6c0a48183c6
 q_st_date|object|1056c49596416195
 decimal_year|function|3d2b4a90f2a98e1a
 msc_clim_data_link|object|a9f6f6d871a2635c
-t00b_processed_data|object|4d7ca1e340638fb0
+t00b_processed_data|object|73eb14b45174eca6
 q_end_date|object|8a6e44e5d7686c13
 train_test_split|function|49a5dc5db0218dfa
-create_predictors|function|615f45e01b16f393
-main_data|stem|88af5d81d11d3522|abe1857ad228f64a|d5a53f1680b145f6|1528465371||t20120.9403785319s|s146299b|146299|rds|local|vector|||0.51||
-train_test|stem|a918d382f94f1959|3940e58b70ee69fd|22e4d53cc9353a5c|-1380401679||t20120.9403789353s|s156065b|156065|rds|local|vector|||0||
+create_predictors|function|a1973d4a2c3db3dc
+predictor_data|stem|2d515a6df9d3ed7b|abe1857ad228f64a|509d65001611f1ce|-1737343515||t20120.9581793223s|s146002b|146002|rds|local|vector|||0.39||
+main_data|stem|08179a4ba09fd272|ebb67f0dbbf09af0|8c7ca8943080fd74|1528465371||t20120.9581798603s|s143249b|143249|rds|local|vector|||0.02||
+train_test|stem|77d5e0a45a5d8b63|3940e58b70ee69fd|f337397d64d773b7|-1380401679||t20120.9581802503s|s156270b|156270|rds|local|vector|||0||
