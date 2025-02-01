@@ -1,4 +1,4 @@
-source("00_preprocess/src/create_predictors.R")
+source("00_dl_preprocess/src/create_predictors.R")
 
 t00b_processed_data <- list(
   tar_target(

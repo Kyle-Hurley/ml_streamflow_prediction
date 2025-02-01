@@ -1,5 +1,5 @@
-source("00_download/src/get_streamflow.R")
-source("00_download/src/get_climate_data.R")
+source("00_dl_preprocess/src/get_streamflow.R")
+source("00_dl_preprocess/src/get_climate_data.R")
 
 t00a_all_data <- list(
   tar_target(
