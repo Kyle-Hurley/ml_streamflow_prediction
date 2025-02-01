@@ -18,6 +18,7 @@ msc_clim_data_link <- "https://www.ncei.noaa.gov/data/daily-summaries/access/USW
 # Run the targets
 source("00a_download_data.R")
 source("00b_preprocess_data.R")
+source("01_train_test_split.R")
 
 # Return the targets
-c(t00a_all_data, t00b_processed_data)
+c(t00a_all_data, t00b_processed_data, t01_train_test)
