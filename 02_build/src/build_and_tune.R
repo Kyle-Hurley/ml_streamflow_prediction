@@ -1,4 +1,4 @@
-build_and_tune <- function(train_test) {
+build_and_tune <- function(train_test, grid = 10) {
   
   # Ideally, these steps would be performed after a predictor selection algorithm
   #   that defines which predictors are most useful when estimating the model(s).
@@ -62,7 +62,7 @@ build_and_tune <- function(train_test) {
     workflow_set,
     "tune_race_anova",
     resamples = resamples,
-    grid = 10,
+    grid = grid,
     metrics = yardstick::metric_set(
       yardstick::rmse, yardstick::mae, yardstick::rsq, yardstick::ccc
     ),

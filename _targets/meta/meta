@@ -13,9 +13,10 @@ q_st_date|object|1056c49596416195
 t02_built_models|object|ea054982c3394249
 decimal_year|function|3d2b4a90f2a98e1a
 msc_clim_data_link|object|a9f6f6d871a2635c
+grid|object|6347f0df4a6e5234
 t00b_processed_data|object|5c1aca5d970939f5
 q_end_date|object|8a6e44e5d7686c13
-build_and_tune|function|86b1b499a5c7772d
+build_and_tune|function|0eb3332003f83194
 train_test_split|function|efd25c9c9429f463
 create_predictors|function|a1973d4a2c3db3dc
-model_tune|stem|48f9ad3f9b0bd860|a4e3b059c4cb3227|9a1efac49ad67f7b|1012108504||t20121.5961932555s|s11323854b|11323854|rds|local|vector|||101.9||
+model_tune|stem|1c8db0612749e172|a4e3b059c4cb3227|0c0672b681d3fe4e|1012108504||t20149.8601752068s|s11323865b|11323865|rds|local|vector|||103.47||

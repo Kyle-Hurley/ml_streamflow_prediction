@@ -19,11 +19,16 @@ q_end_date <- "2024-12-31"
 # Climate data is missing 2020-06-03 through 2022-08-15; likely due to covid
 msc_clim_data_link <- "https://www.ncei.noaa.gov/data/daily-summaries/access/USW00093784.csv"
 
+# Set size of grid
+# A larger grid provides more hyperparameter combinations, but increases
+# computation time as well.
+grid <- 20
+
 # Run the targets
-source("00a_download_data.R")
-source("00b_preprocess_data.R")
-source("01_train_test_split.R")
-source("02_build_and_train.R")
+source("00_dl_preprocess/00a_download_data.R")
+source("00_dl_preprocess/00b_preprocess_data.R")
+source("01_split/01_train_test_split.R")
+source("02_build/02_build_and_train.R")
 
 # Return the targets
 c(
