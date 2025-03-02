@@ -8,7 +8,7 @@ build_and_tune <- function(train_test, grid = 10) {
     # Set role for date column and exclude as a predictor
     recipes::update_role(date, new_role = "date") |> 
     # Minimal rows with NA values; remove these; else errors
-    recipes::step_naomit(all_predictors(), skip = TRUE)
+    recipes::step_naomit(recipes::all_predictors(), skip = TRUE)
   
   # Set model specifications
   # Generalized linear model

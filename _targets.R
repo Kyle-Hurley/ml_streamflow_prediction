@@ -5,7 +5,7 @@ library(targets)
 tar_option_set(
   packages = c(
     "dataRetrieval", "stats", "tidymodels", "lightgbm", "bonsai", 
-    "hardhat", "earth", "glmnet", "future", "finetune"
+    "hardhat", "earth", "glmnet", "future", "finetune", "stacks"
   )
 )
 
